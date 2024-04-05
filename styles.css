@@ -1,0 +1,83 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    background-image: url('bg.jpg');
+    background-size: cover; 
+    background-position: center; 
+    min-height: 100vh; 
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    margin: 0; /* Remove default margin */
+}
+
+.container {
+    width: 90%; /* Set the width to 90% of its containing block */
+    max-width: 400px; /* Maximum width of 400px */
+    padding: 20px;
+    background-color: rgba(211, 211, 211, 0.7);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+h2 {
+    text-align: center;
+    color: darkblue;
+}
+
+form {
+    text-align: left;
+}
+
+input[type="text"],
+select {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: darkblue;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s, background-color 0.3s; 
+}    
+
+input[type="submit"]:hover {
+    background-color: darkblue; 
+    box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2); 
+}
+
+.white-text {
+    color: whitesmoke;
+    font-size: medium;
+}
+
+#backButton {
+    background-color: darkblue;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s, background-color 0.3s; 
+    display: inline-block;
+    margin-top: 20px; /* Adjust margin as needed */
+}
+
+#backButton:hover {
+    background-color: darkblue; 
+    box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2); 
+}
+
+
+
+
+
